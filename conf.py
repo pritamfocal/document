@@ -26,9 +26,9 @@ html_logo = "logo/logo.svg"
 
 templates_path = ['_templates']
 
-html_css_files = [
-    'custom.css',
-]
+# html_css_files = [
+#     'custom.css',
+# ]
 
 html_theme_options = {
     'navigation_depth': 6

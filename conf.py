@@ -22,7 +22,7 @@ highlight_language = 'none'  # Or any other default language
 
 html_theme = "sphinx_rtd_theme"
 
-html_logo = "logo/logo.jpg"
+html_logo = "logo/logo.svg"
 
 templates_path = ['_templates']
 

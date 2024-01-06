@@ -9,6 +9,7 @@ import sphinx_rtd_theme
 extensions = [
     # ... other extensions
     "sphinx_rtd_theme",
+    "sphinxcontrib.jquery",
 ]
 
 project = u'Focalx documentations'

@@ -60,6 +60,7 @@ Response
         - *Description*: URL generated for the image.
 
     Example:
+
     .. code-block:: json
 
         [

@@ -3,9 +3,6 @@
 Focalx Documentation
 ====================
 
-.. image:: logo/logo.svg
-   :align: center
-
 Welcome to the Focalx Documentation. This documentation aims to provide detailed guides and reference materials for our APIs, SDK and Product.
 
 .. toctree::

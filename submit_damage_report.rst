@@ -116,53 +116,6 @@ Request
     - *Type*: List of DamageItem
     - *Description*: List of damages.
 
-
-**VehicleItem Details**:
-
-- **make**: 
-    - *Type*: String
-    - *Description*: Car make.
-
-- **model**: 
-    - *Type*: String
-    - *Description*: Model of the car.
-
-- **mileage**: 
-    - *Type*: String
-    - *Description*: Mileage of the car.
-
-- **carTotalWeight**: 
-    - *Type*: Integer
-    - *Description*: Total weight of the car.
-
-- **bodyType**: 
-    - *Type*: String
-    - *Description*: Body type of the car.
-
-- **engineType**: 
-    - *Type*: String
-    - *Description*: Engine type of the car.
-
-- **vin**: 
-    - *Type*: String
-    - *Description*: Vehicle Identification Number of the car.
-
-- **registerNumber**: 
-    - *Type*: String
-    - *Description*: Registration number of the car.
-
-- **technicalWeight**: 
-    - *Type*: Integer
-    - *Description*: Technical weight of the car.
-
-- **motorKilometerPerLiter**: 
-    - *Type*: Integer
-    - *Description*: Mileage of the car in kilometers per liter.
-
-- **variant**: 
-    - *Type*: String
-    - *Description*: Variant of the car.
-
 **DamageItem Details**:
 
 - **DamageNumber**: 
@@ -221,6 +174,52 @@ Request
 - **CloseUpImageFileURL**: 
     - *Type*: String
     - *Description*: Signed URL for downloading this close-up image.
+
+**VehicleItem Details**:
+
+- **make**: 
+    - *Type*: String
+    - *Description*: Car make.
+
+- **model**: 
+    - *Type*: String
+    - *Description*: Model of the car.
+
+- **mileage**: 
+    - *Type*: String
+    - *Description*: Mileage of the car.
+
+- **carTotalWeight**: 
+    - *Type*: Integer
+    - *Description*: Total weight of the car.
+
+- **bodyType**: 
+    - *Type*: String
+    - *Description*: Body type of the car.
+
+- **engineType**: 
+    - *Type*: String
+    - *Description*: Engine type of the car.
+
+- **vin**: 
+    - *Type*: String
+    - *Description*: Vehicle Identification Number of the car.
+
+- **registerNumber**: 
+    - *Type*: String
+    - *Description*: Registration number of the car.
+
+- **technicalWeight**: 
+    - *Type*: Integer
+    - *Description*: Technical weight of the car.
+
+- **motorKilometerPerLiter**: 
+    - *Type*: Integer
+    - *Description*: Mileage of the car in kilometers per liter.
+
+- **variant**: 
+    - *Type*: String
+    - *Description*: Variant of the car.
 
     Example:
 

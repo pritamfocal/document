@@ -46,9 +46,6 @@ Response
 
 **Response Parameters**:
 
-- **token**:
-  - *Type*: Access Token.
-  - *Description*: The token provided to the client for accessing other APIs.
 
 - **token**:
     - *Type*: Access Token

@@ -5,7 +5,7 @@ The CreateInspection API is provided by Focalx and can be called by the client's
 
 .. contents::
    :local:
-   :depth: 2
+   :depth: 6
 
 Prerequisites
 -------------

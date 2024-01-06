@@ -13,3 +13,4 @@ This documentation is intended for developers, system integrators, and technical
    flow_diagram
    authentification
    create_inspection
+   generate_url

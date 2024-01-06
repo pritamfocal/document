@@ -1,4 +1,6 @@
-{% extends "!layout.html" %}
+<footer>
 
-{% block footer %}'  {# Empty block to remove footer #}
-{% endblock %}
+  <span class="lastupdated">
+    {%- trans last_updated=last_updated|e %}Last updated on {{ last_updated }}.{% endtrans %}
+  </span>
+</footer>

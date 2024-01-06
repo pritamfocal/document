@@ -12,6 +12,6 @@ This documentation is intended for developers, system integrators, and technical
    
    flow_diagram
    authentification
-   upload_image
    create_inspection
    generate_url
+   upload_image

@@ -10,4 +10,6 @@ This documentation is intended for developers, system integrators, and technical
 .. toctree::
    :maxdepth: 2
    
+   flow_diagram
    authentification
+   create_inspection

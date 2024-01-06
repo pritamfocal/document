@@ -11,8 +11,8 @@ Prerequisites
 -------------
 
 - **Secrete keys**:
-    - *Type*: Provided Data
-    - *Description*: Will be provided by Focalx
+    - *Type*: String
+    - *Description*: It will be provided by Focalx.
 
 Request
 -------

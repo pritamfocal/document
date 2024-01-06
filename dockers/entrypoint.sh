@@ -11,4 +11,7 @@ git pull
 
 sphinx-build -b html . _build/html
 
+cd /docs/_build/html
+python -m http.server 8000
+
 exec "$@"

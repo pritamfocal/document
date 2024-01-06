@@ -38,7 +38,9 @@ Request
     - *Description*: Name of the image.
     
     Example:
+
     .. code-block:: json
+      
       {
         "images": [
           {

@@ -16,11 +16,6 @@ author = u'Pritam Bolenwar, Focalx'
 copyright = author
 language = 'en'
 
-templates_path = ['_templates']
-
-html_css_files = [
-    'custom.css',
-]
 
 highlight_language = 'none'  # Or any other default language
 
@@ -28,3 +23,9 @@ highlight_language = 'none'  # Or any other default language
 html_theme = "sphinx_rtd_theme"
 
 html_logo = "logo/logo.jpg"
+
+templates_path = ['_templates']
+
+html_css_files = [
+    'custom.css',
+]

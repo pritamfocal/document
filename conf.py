@@ -29,3 +29,8 @@ templates_path = ['_templates']
 html_css_files = [
     'custom.css',
 ]
+
+html_theme_options = {
+    'navigation_depth': 5,
+}
+html_context = {}

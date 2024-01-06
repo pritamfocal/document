@@ -12,7 +12,7 @@ This documentation is intended for developers, system integrators, and technical
    
    flow_diagram
    authentification
-   create_inspection
+   authentification copy
    generate_url
    upload_image
    submit_damage_report

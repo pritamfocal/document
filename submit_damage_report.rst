@@ -226,68 +226,68 @@ Request
 
     .. code-block:: json
 
-         {
-            "InspectionId": "72e18833-bbc7-48a4-af5a-f25402e7de12",
-            "ProcessId": "M6S5HFQ82CSY",
-            "Provider": "264",
-            "FrameNumber": "264",
-            "UserID": "",
-            "StartTime": "2023-12-14 05:19:40.068629+00:00",
-            "EndTime": "2023-12-14 22:07:01.033311+00:00",
-            "RegistrationNumber": "CTFG18",
-            "Name": "",
-            "Email": "",
-            "Phone": "",
-            "Mileage": "12345",
-            "MileageImageFilename": "72e18833-bbc7-48a4-af5a-f25402e7de12",
-            "OrientationResults": [
-               {
-                     "Orientation": "1",
-                     "Manual": "False",
-                     "ImagePositionMasterName": "front",
-                     "OrientationName": "front",
-                     "ImageFileName": "547f36c4-f1e0-4b9a-81f6-506d90ac707e",
-                     "ImageFileURL": "547f36c4-f1e0-4b9a-81f6-506d90ac707e",
-                     "ImageFileDrawURL": "547f36c4-f1e0-4b9a-81f6-506d90ac707e",
-                     "Luminous": "clear-image",  
-                     "ImageCharacteristic": ["car"], 
-                     "ImageView": [ "complete-image"],
-                     "ColorType": "Grey",
-                     "Damages": [
-                        {
-                           "DamageNumber": "38dc46e2-b98c-410e-b5e6-e3cbe084536d",
-                           "MarkerPoint": "[472.3683782104364, 476.0058620769277, 488.5853111017721, 494.97661376113183]",
-                           "ZoneId": "BB21"
-                           "PartId" : "bumper",
-                           "PartName": "bumper",
-                           "DamageCategoryID" : "1",
-                           "DamageCategoryName": "K4",
-                           "DamageTypeCode" : "6",
-                           "DamageTypeName": "scratch",
-                           "OtherDamageImages": "[url1, url2]
-                           "RepairMethodCode": "4",
-                           "CloseUpImageFilename": "38dc46e2-b98c-410e-b5e6-e3cbe084536d.jpg",
-                           "CloseUpImageFileURL": "image_url"
-                        }
-                     ]
-               }
-            ],
-            "vehicleData": {
-               "Make": "HYUNDAI",
-               "Model": "SANTAFE",
-               "Mileage": "12345",
-               "CarTotalWeight": "None",
-               "BodyType": "SUV",
-               "BodySize": "medium",
-               "Segment": "None",
-               "EngineType": "None",
-               "Vin": "P22EAD52NDVJCJHWFSFF",
-               "RegisterNumber": "CTFG18",
-               "TechnicalWeight": "None",
-               "MotorKilometerPerLiter": "None",
-               "Variant": "None"
+      {
+         "InspectionId": "72e18833-bbc7-48a4-af5a-f25402e7de12",
+         "ProcessId": "M6S5HFQ82CSY",
+         "Provider": "264",
+         "FrameNumber": "264",
+         "UserID": "",
+         "StartTime": "2023-12-14 05:19:40.068629+00:00",
+         "EndTime": "2023-12-14 22:07:01.033311+00:00",
+         "RegistrationNumber": "CTFG18",
+         "Name": "",
+         "Email": "",
+         "Phone": "",
+         "Mileage": "12345",
+         "MileageImageFilename": "72e18833-bbc7-48a4-af5a-f25402e7de12",
+         "OrientationResults": [
+            {
+                  "Orientation": "1",
+                  "Manual": "False",
+                  "ImagePositionMasterName": "front",
+                  "OrientationName": "front",
+                  "ImageFileName": "547f36c4-f1e0-4b9a-81f6-506d90ac707e",
+                  "ImageFileURL": "547f36c4-f1e0-4b9a-81f6-506d90ac707e",
+                  "ImageFileDrawURL": "547f36c4-f1e0-4b9a-81f6-506d90ac707e",
+                  "Luminous": "clear-image",   // Other options are, blur-image,dark-image,night-image
+                  "ImageCharacteristic": ["car"], // Other options are, partial-car,dirty-car,rainy-car,snow-car,dark-light
+                  "ImageView": [ "complete-image"], // Other options are, obstructing-view,incomplete-image,door-open
+                  "ColorType": "Grey",
+                  "Damages": [
+                     {
+                        "DamageNumber": "38dc46e2-b98c-410e-b5e6-e3cbe084536d",
+                        "MarkerPoint": "[472.3683782104364, 476.0058620769277, 488.5853111017721, 494.97661376113183]",
+                        "ZoneId": "BB21",
+                        "PartId": "bumper",
+                        "PartName": "bumper",
+                        "DamageCategoryID": "1",
+                        "DamageCategoryName": "K4",
+                        "DamageTypeCode": "6",
+                        "DamageTypeName": "scratch",
+                        "OtherDamageImages": "['url1', 'url2']",
+                        "RepairMethodCode": "4",
+                        "CloseUpImageFilename": "38dc46e2-b98c-410e-b5e6-e3cbe084536d.jpg",
+                        "CloseUpImageFileURL": "image_url"
+                     }
+                  ]
             }
+         ],
+         "vehicleData": {
+            "Make": "HYUNDAI",
+            "Model": "SANTAFE",
+            "Mileage": "12345",
+            "CarTotalWeight": "None",
+            "BodyType": "SUV",
+            "BodySize": "medium",
+            "Segment": "None",
+            "EngineType": "None",
+            "Vin": "P22EAD52NDVJCJHWFSFF",
+            "RegisterNumber": "CTFG18",
+            "TechnicalWeight": "None",
+            "MotorKilometerPerLiter": "None",
+            "Variant": "None"
          }
+      }
 
 
 Response

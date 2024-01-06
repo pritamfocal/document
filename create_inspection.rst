@@ -105,29 +105,75 @@ Response
 
 - **id**: 
     - *Type*: String
-    - *Description*: Inspection id.
+    - *Description*: Inspection ID.
 
 - **latitude**: 
     - *Type*: String
-    - *Description*: Latitude for inspection.
+    - *Description*: Latitude where the inspection took place.
 
-[...Repeat for each inspection parameter...]
+- **longitude**: 
+    - *Type*: String
+    - *Description*: Longitude where the inspection took place.
+
+- **process_id**: 
+    - *Type*: String
+    - *Description*: Process ID related to the client's data.
+
+- **platform**: 
+    - *Type*: String
+    - *Description*: Platform from which images were generated.
+
+- **thumbnail_url_public**: 
+    - *Type*: String
+    - *Description*: Public URL of the inspection thumbnail.
+
+- **is_user_approved**: 
+    - *Type*: Boolean
+    - *Description*: Indicates whether the user has approved the inspection.
+
+- **name**: 
+    - *Type*: String
+    - *Description*: Client's name.
+
+- **phone_number**: 
+    - *Type*: String
+    - *Description*: Client's phone number.
+
+- **email**: 
+    - *Type*: String
+    - *Description*: Client's email address.
+
+- **meta_data**: 
+    - *Type*: String
+    - *Description*: JSON string containing metadata sent by the client.
 
 **Car Object Details**:
 
 - **vin**: 
     - *Type*: String
-    - *Description*: Car VIN.
+    - *Description*: Vehicle Identification Number.
 
-[...Repeat for each car parameter...]
+- **registration_number**: 
+    - *Type*: String
+    - *Description*: Vehicle's registration number.
+
+- **color**: 
+    - *Type*: String
+    - *Description*: Color of the vehicle.
 
 **Car Master Object Details**:
 
+- **make**: 
+    - *Type*: String
+    - *Description*: Manufacturer of the car.
+
+- **model**: 
+    - *Type*: String
+    - *Description*: Model of the car.
+
 - **year**: 
     - *Type*: String
-    - *Description*: Year of the car.
-
-[...Repeat for each car_master parameter...]
+    - *Description*: Manufacturing year of the car.
 
 Status Codes
 ------------

@@ -11,6 +11,8 @@ extensions = [
     "sphinx_rtd_theme",
 ]
 
+project = u'Focalx documentations'
+
 highlight_language = 'none'  # Or any other default language
 
 

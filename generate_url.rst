@@ -39,15 +39,7 @@ Request
     
     Example:
 
-    .. code-block:: json
 
-    {
-        "images": [
-          {
-               "name": "09e800a6-ffd0-4282-9c71-034f68e0b164.jpg",
-          }
-       ]
-    }
 
 Response
 --------
@@ -62,15 +54,6 @@ Response
         - *Description*: URL generated for the image.
 
     Example:
-
-    .. code-block:: json
-
-    [
-            {
-                "image_name": "rwsr",
-                "generated_url": "hrrpa"
-            }
-    ]
 
 Status Codes
 ------------

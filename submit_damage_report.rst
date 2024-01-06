@@ -267,7 +267,7 @@ Request
                            "OtherDamageImages": "[url1, url2]
                            "RepairMethodCode": "4",
                            "CloseUpImageFilename": "38dc46e2-b98c-410e-b5e6-e3cbe084536d.jpg",
-                           "CloseUpImageFileURL": "image_url",
+                           "CloseUpImageFileURL": "image_url"
                         }
                      ]
                }
@@ -313,3 +313,11 @@ Response Error (when status code is 400)
 - **error**: 
     - *Type*: String
     - *Description*: This will provide a JSON error indicating that parameters are missing or incorrect.
+   
+   example:
+       
+       .. code-block:: json
+
+            {
+                "error": "Missing vehicle data item",
+            }

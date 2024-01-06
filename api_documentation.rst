@@ -14,3 +14,4 @@ This documentation is intended for developers, system integrators, and technical
    authentification
    create_inspection
    generate_url
+   upload_image

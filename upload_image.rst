@@ -1,15 +1,45 @@
-.. Focalx Documentation master file
+Upload Image 
+===========================================
 
-Focalx Documentation
-====================
+This API allows clients to upload an image to a pre-signed Amazon Web Services (AWS) S3 URL.
 
-.. image:: logo/logo.svg
-   :align: center
+.. contents::
+   :local:
+   :depth: 2
 
-Welcome to the Focalx Documentation. This documentation aims to provide detailed guides and reference materials for our APIs.
+Prerequisites
+-------------
 
-.. toctree::
-   :maxdepth: 2
-   :caption: Contents
+- A valid signed URL generated from GenerateUrl API.
+- The image file ready for upload.
 
-   api_documentation
+Request
+-------
+
+**Content Type**: ``multipart/form-data`` or appropriate content type based on the file.
+
+- **Method**: ``PUT``
+- **URL**: [Your pre-signed URL]
+
+**Header Parameters**:
+
+- **Content-Type**: 
+    - *Type*: String
+    - *Description*: The content type of the file being uploaded (e.g., `image/jpeg`, `image/png`).
+
+**Input Parameters**:
+
+- **file**: 
+    - *Type*: File
+    - *Description*: The image file to be uploaded.
+
+Response
+--------
+
+The response will on successful upload will not return any content, but HTTP status code will indicate success.
+
+Status Codes
+------------
+
+- **200**: Success - File uploaded successfully.
+- **4xx/5xx**: Client/Server Errors.

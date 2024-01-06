@@ -31,7 +31,6 @@ templates_path = ['_templates']
 #]
 
 html_theme_options = {
-    'logo_only': True,
-    'navigation_depth': 5
+    'navigation_depth': 6
 }
 html_context = {}

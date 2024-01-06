@@ -8,10 +8,11 @@ Purpose:
 This documentation is intended for developers, system integrators, and technical project managers who are looking to leverage Focalx's capabilities within their own applications.
 
 .. toctree::
-   :maxdepth: 5
+   :maxdepth: 6
    
    flow_diagram
    authentification
    create_inspection
    generate_url
    upload_image
+   submit_damage_report

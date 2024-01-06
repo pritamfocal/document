@@ -249,9 +249,9 @@ Request
                      "ImageFileName": "547f36c4-f1e0-4b9a-81f6-506d90ac707e",
                      "ImageFileURL": "547f36c4-f1e0-4b9a-81f6-506d90ac707e",
                      "ImageFileDrawURL": "547f36c4-f1e0-4b9a-81f6-506d90ac707e",
-                     "Luminous": "clear-image",   // Other options are, blur-image,dark-image,night-image
-                     "ImageCharacteristic": ["car"], // Other options are, partial-car,dirty-car,rainy-car,snow-car,dark-light
-                     "ImageView": [ "complete-image"], // Other options are, obstructing-view,incomplete-image,door-open
+                     "Luminous": "clear-image",  
+                     "ImageCharacteristic": ["car"], 
+                     "ImageView": [ "complete-image"],
                      "ColorType": "Grey",
                      "Damages": [
                         {

@@ -10,4 +10,4 @@ extensions = [
 
 html_theme = "sphinx_rtd_theme"
 
-html_logo = "/logo/logo.png"
+html_logo = "logo/logo.jpg"

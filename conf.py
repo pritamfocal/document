@@ -12,6 +12,15 @@ extensions = [
 ]
 
 project = u'Focalx documentations'
+author = u'Pritam Bolenwar, Focalx'
+copyright = author
+language = 'en'
+
+templates_path = ['_templates']
+
+html_css_files = [
+    'custom.css',
+]
 
 highlight_language = 'none'  # Or any other default language
 

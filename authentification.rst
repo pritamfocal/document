@@ -38,7 +38,7 @@ Request
     AES-256 encrypted JSON containing a client key (string), client secret (string), and user email hash (MD5 hash). The client key, client secret, and encryption private key for encryption will be shared by Focalx.
 
 - **pubKey**:
-  - *Type*: String
+  - *Type*: String.
   - *Description*: Provided by Focalx.
 
 Response
@@ -47,8 +47,14 @@ Response
 **Response Parameters**:
 
 - **token**:
-  - *Type*: Access Token
+  - *Type*: Access Token.
   - *Description*: The token provided to the client for accessing other APIs.
+
+- **token**:
+    - *Type*: Access Token
+    - *Description*: The token provided to the client for accessing other APIs.
+
+
 - **expiry_time**:
   - *Value*: Date Time
   - *Description*: The expiry time of the token.

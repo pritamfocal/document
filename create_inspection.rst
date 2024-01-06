@@ -188,4 +188,6 @@ Response Error (when status code is 400)
 
 - **error**: 
     - *Type*: String
-    - *Description*: This will provide a JSON error indicating that parameters are missing or incorrect.
+    - *Description*: This will provide a JSON error indicating that parameters are missing or incorrect
+
+    

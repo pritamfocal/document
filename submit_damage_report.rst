@@ -222,6 +222,83 @@ Request
     - *Type*: String
     - *Description*: Signed URL for downloading this close-up image.
 
+    Example:
+
+    .. code-block:: json
+
+         {
+            "InspectionId": "72e18833-bbc7-48a4-af5a-f25402e7de12",
+            "ProcessId": "M6S5HFQ82CSY",
+            "Provider": "264",
+            "FrameNumber": "264",
+            "UserID": "",
+            "StartTime": "2023-12-14 05:19:40.068629+00:00",
+            "EndTime": "2023-12-14 22:07:01.033311+00:00",
+            "RegistrationNumber": "CTFG18",
+            "Name": "",
+            "Email": "",
+            "Phone": "",
+            "Mileage": "12345",
+            "MileageImageFilename": "72e18833-bbc7-48a4-af5a-f25402e7de12",
+            "OrientationResults": [
+               {
+                     "Orientation": "1",
+                     "Manual": "False",
+                     "ImagePositionMasterName": "front",
+                     "OrientationName": "front",
+                     "Luminious": "clear image",
+                     "ImageChracteristic": ["Car"],
+                     "ImageViews": [ "Complete Image"],
+                     "ColorType": "Grey",
+                     "ImageFileName": "547f36c4-f1e0-4b9a-81f6-506d90ac707e",
+                     "ImageFileDraw": "547f36c4-f1e0-4b9a-81f6-506d90ac707e",
+                     "Damages": [
+                        {
+                           "DamageNumber": "38dc46e2-b98c-410e-b5e6-e3cbe084536d",
+                           "MarkerPoint": "[472.3683782104364, 476.0058620769277, 488.5853111017721, 494.97661376113183]",
+                           "DamageCategory": "",
+                           "RepairMethod": "6",
+                           "Category": "K4",
+                           "CloseUpImageFilename": "None",
+                           "DamageName": "dent",
+                           "PartName": "bumper",
+                           "DamageType": "1",
+                           "SparePartId": "1",
+                           "PartLocation": "1",
+                           "ZoneId": "BB21"
+                        },
+                        {
+                           "DamageNumber": "709e7a5b-5bba-46f8-a2c2-68b6cd4f13f2",
+                           "MarkerPoint": "None",
+                           "DamageCategory": "",
+                           "RepairMethod": "6",
+                           "CloseUpImageFilename": "None",
+                           "DamageType": "1",
+                           "SparePartId": "1",
+                           "PartLocation": "1",
+                           "ZoneId": "BB21"
+                        }
+                     ]
+               }
+            ],
+            "vehicleData": {
+               "Make": "HYUNDAI",
+               "Model": "SANTAFE",
+               "Mileage": "12345",
+               "CarTotalWeight": "None",
+               "BodyType": "SUV",
+               "BodySize": "medium",
+               "Segment": "None",
+               "EngineType": "None",
+               "Vin": "P22EAD52NDVJCJHWFSFF",
+               "RegisterNumber": "CTFG18",
+               "TechnicalWeight": "None",
+               "MotorKilometerPerLiter": "None",
+               "Variant": "None"
+            }
+         }
+
+
 Response
 --------
 

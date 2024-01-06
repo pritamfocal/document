@@ -1,7 +1,7 @@
 # conf.py
 
 import sys; 
-sys.setrecursionlimit(1500)
+sys.setrecursionlimit(1500000)
 
 # Add Read the Docs Theme
 import sphinx_rtd_theme

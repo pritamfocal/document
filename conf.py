@@ -31,6 +31,6 @@ html_css_files = [
 ]
 
 html_theme_options = {
-    'navigation_depth': 5,
+    'navigation_depth': 10,
 }
 html_context = {}

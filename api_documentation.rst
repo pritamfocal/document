@@ -15,3 +15,4 @@ This documentation is intended for developers, system integrators, and technical
    create_inspection
    generate_url
    upload_image
+   submit_damage_report

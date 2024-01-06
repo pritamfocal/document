@@ -11,8 +11,8 @@ This documentation is intended for developers, system integrators, and technical
    :maxdepth: 6
    
    flow_diagram
-   authentification
    create_inspection
+   authentification
    generate_url
    upload_image
    submit_damage_report

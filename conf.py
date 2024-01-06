@@ -9,7 +9,6 @@ import sphinx_rtd_theme
 extensions = [
     # ... other extensions
     "sphinx_rtd_theme",
-    "sphinxcontrib.jquery",
 ]
 
 project = u'Focalx documentations'
@@ -17,16 +16,21 @@ author = u'Pritam Bolenwar, Focalx'
 copyright = author
 language = 'en'
 
+
+highlight_language = 'none'  # Or any other default language
+
+
 html_theme = "sphinx_rtd_theme"
 
 html_logo = "logo/logo.svg"
 
-#templates_path = ['_templates']
+templates_path = ['_templates']
 
-#html_css_files = [
-#    'custom.css',
-#]
+html_css_files = [
+    'custom.css',
+]
 
 html_theme_options = {
     'navigation_depth': 6
 }
+html_context = {}

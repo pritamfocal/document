@@ -208,11 +208,11 @@ Request
 - **RepairMethodCode**: 
     - *Type*: String
     - *Description*: Repair method ID. The details are:
-        1: [Description of Method 1]
-        2: [Description of Method 2]
-        3: [Description of Method 3]
-        4: [Description of Method 4]
-        5: [Description of Method 5]
+        1: you can clean the car at home
+        2: you can fix it home
+        3: Minor professional work needed
+        4: Professional work needed
+        5: Part replacement needed
 
 - **CloseUpImageFilename**: 
     - *Type*: String

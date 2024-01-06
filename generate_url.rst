@@ -87,3 +87,11 @@ Response Error (when status code is 400)
 - **error**: 
     - *Type*: String
     - *Description*: This will provide a JSON error indicating that parameters are missing or incorrect.
+
+   example:
+       
+       .. code-block:: json
+
+            {
+                "error": "Missing vehicle data item",
+            }

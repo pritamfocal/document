@@ -1,5 +1,5 @@
-Upload Image 
-===========================================
+Upload Image API
+================
 
 This API allows clients to upload an image to a pre-signed Amazon Web Services (AWS) S3 URL.
 

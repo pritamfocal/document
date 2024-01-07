@@ -15,4 +15,4 @@ Welcome to the Focalx Documentation. This documentation aims to provide detailed
     :caption: Customization Parameters
     :hidden:
 
-    customizing_parameters/cutomization_report_parameters
+    customizing_parameters/index

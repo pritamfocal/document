@@ -16,8 +16,8 @@ Developers or customers can provide a part ID or name, which can then be mapped 
 
 Focalx will supply an Excel spreadsheet containing a list of part names. Customers are required to enter their corresponding IDs in this spreadsheet. If no specific IDs are provided, Focalx will default to using its standard part names and IDs.
 
-Example Table Format
---------------------
+Example
+-------
 
 The following table illustrates an example format. Here, the 'Customer ID' and 'Customer Part Name' columns can be customized by the customer. If they are not customized, the default Focalx part ID and name will be displayed.
 
@@ -29,11 +29,3 @@ The following table illustrates an example format. Here, the 'Customer ID' and '
 | 0bce82b9-3acb-4b87-9b9d-5ae696c05a40 | 183         | Door edge          | 35 | Left Front |
 +--------------------------------------+-------------+--------------------+----+------------+
 
-
-Here's a grid table followed by a simple table:
-
-+------------------------+---------------+----------+----------+
-| Focalx Part ID         | Customer ID   | Header 3 | Header 4 |
-+========================+===============+==========+==========+
-| body row 1, column 1   | 123           | column 3 | column 4 |
-+------------------------+---------------+----------+----------+

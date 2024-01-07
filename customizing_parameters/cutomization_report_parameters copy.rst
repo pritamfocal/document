@@ -7,3 +7,9 @@ Welcome to the Focalx Customization Documentation. This guide is designed to pro
 Purpose:
 
 This documentation is intended for developers, system integrators, and technical project managers who are looking to leverage Focalx's capabilities within their own applications.
+
+.. toctree::
+   :maxdepth: 2
+   
+   parts_customization
+

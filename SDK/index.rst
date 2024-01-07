@@ -1,4 +1,4 @@
-Customized API Paramaters
+SDK Integration
 ==================================
 
 

@@ -28,3 +28,21 @@ The following table illustrates an example format. Here, the 'Customer ID' and '
 +--------------------------------------+-------------+-------------------+----+------------+
 | 0bce82b9-3acb-4b87-9b9d-5ae696c05a40 | 183         | Door edge          | 35 | Left Front |
 +--------------------------------------+-------------+-------------------+----+------------+
+
+
+Here's a grid table followed by a simple table:
+
++------------------------+------------+----------+----------+
+| Header row, column 1   | Header 2   | Header 3 | Header 4 |
+| (header rows optional) |            |          |          |
++========================+============+==========+==========+
+| body row 1, column 1   | column 2   | column 3 | column 4 |
++------------------------+------------+----------+----------+
+| body row 2             | Cells may span columns.          |
++------------------------+------------+---------------------+
+| body row 3             | Cells may  | - Table cells       |
++------------------------+ span rows. | - contain           |
+| body row 4             |            | - body elements.    |
++------------------------+------------+----------+----------+
+| body row 5             | Cells may also be     |          |
+|                        | empty: ``-->``        |          |

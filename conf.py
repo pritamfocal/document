@@ -6,6 +6,15 @@ sys.setrecursionlimit(1500000)
 # Add Read the Docs Theme
 import sphinx_rtd_theme
 
+import os
+import re
+
+# Prefer to use the version of the theme in this repo
+# and not the installed version of the theme.
+sys.path.insert(0, os.path.abspath('..'))
+sys.path.append(os.path.abspath('./customizing_parameters/'))
+
+
 extensions = [
     # ... other extensions
     'sphinx.ext.intersphinx',

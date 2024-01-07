@@ -8,6 +8,15 @@ Welcome to the Focalx Documentation. This documentation aims to provide detailed
 .. toctree::
    :maxdepth: 2
    :caption: Contents
+   :hidden:
 
    api_documentation
-   cutomization_report_parameters
+
+
+.. toctree::
+    :maxdepth: 2
+    :numbered:
+    :caption: Customization Parameters
+    :hidden:
+
+    customizing_parameters/cutomization_report_parameters

@@ -8,7 +8,12 @@ import sphinx_rtd_theme
 
 extensions = [
     # ... other extensions
-    "sphinx_rtd_theme",
+    'sphinx.ext.intersphinx',
+    'sphinx.ext.autodoc',
+    'sphinx.ext.autosummary',
+    'sphinx.ext.mathjax',
+    'sphinx.ext.viewcode',
+    'sphinx_rtd_theme',
 ]
 
 project = u'Focalx documentations'

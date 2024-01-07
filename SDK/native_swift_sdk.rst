@@ -119,10 +119,10 @@ Implementing the SDK in Your App
                 let trunck_image = true
 
 - **Custom Image Parameters**:
-  - When `custom_images` is set to `false`, all 16 images will be automatically taken.
-  - If `true`, you need to specify which images the user should take.
+    - When `custom_images` is set to `false`, all 16 images will be automatically taken.
+    - If `true`, you need to specify which images the user should take.
 
 - **App Transport Security (ATS)**:
-  - `NSAllowsArbitraryLoads`: This Boolean value is used to disable ATS for domains not listed in `NSExceptionDomains`. 
+    - `NSAllowsArbitraryLoads`: This Boolean value is used to disable ATS for domains not listed in `NSExceptionDomains`. 
 
 Remember to follow best practices for secure network connections in your app.

@@ -13,3 +13,4 @@ This documentation is intended for developers, system integrators, and technical
    :maxdepth: 2
    
    native_swift_sdk
+   native_android_sdk

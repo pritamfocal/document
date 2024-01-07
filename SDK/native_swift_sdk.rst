@@ -16,37 +16,38 @@ Downloading and Adding the SDK
 ------------------------------
 
 1. **Download the SDK**:
-   - Follow the below link to download the SDK compatible with Swift 5.2 or above: [Download Link](#).
+     - Follow the below link to download the SDK compatible with Swift 5.2 or above: [Download Link](#).
 
 2. **Add the SDK to Your Project**:
-   - Unzip the file and drag the `FocalxSDK.xcframework` directory to the "Frameworks" section in your Xcode project tree.
+     - Unzip the file and drag the `FocalxSDK.xcframework` directory to the "Frameworks" section in your Xcode project tree.
 
 Configuring the Xcode Project
 -----------------------------
 
 1. **Select Your Project**:
-   - In your Xcode project, select your application project in the Project Navigator (blue project icon) to navigate to the target configuration window.
-   - Select the application target under the "Targets" heading in the sidebar.
+     - In your Xcode project, select your application project in the Project Navigator (blue project icon) to navigate to the target configuration window.
+     - Select the application target under the "Targets" heading in the sidebar.
 
 2. **Add the Framework**:
-   - In the General panel tab, click on the "+" button under the "Frameworks, Libraries, and Embedded Content" section.
-   - Find `FocalxSDK.xcframework` nested inside the "Frameworks" section.
-   - Select `FocalxSDK.xcframework`, click "Add", and ensure you select the "Embed & Sign" option.
+     - In the General panel tab, click on the "+" button under the "Frameworks, Libraries, and Embedded Content" section.
+     - Find `FocalxSDK.xcframework` nested inside the "Frameworks" section.
+     - Select `FocalxSDK.xcframework`, click "Add", and ensure you select the "Embed & Sign" option.
 
 Implementing the SDK in Your App
 --------------------------------
 
 - **Include the SDK**:
-  - In your app, wherever you want to present the damage detection model, include the SDK.
-  - For Objective-C: `@import FocalxSDK;`
-  - For Swift: `import FocalxSDK`
+    - In your app, wherever you want to present the damage detection model, include the SDK.
+    - For Objective-C: `@import FocalxSDK;`
+    - For Swift: `import FocalxSDK`
 
 - **API Token Generation**:
-  - Before showing the FocalX.ai damage guide, create a token and supply it to the SDK.
-  - Refer to the API documentation for creating a token: [API Token Generation](#).
+    - Before showing the FocalX.ai damage guide, create a token and supply it to the SDK.
+    - Refer to the API documentation for creating a token: [API Token Generation](#).
 
 - **Integration Example**:
-  - For Objective-C and Swift, follow the provided code examples to integrate the SDK functionality.
+
+    - For Objective-C and Swift, follow the provided code examples to integrate the SDK functionality.
 
     .. code-block:: objective-c
 
@@ -82,7 +83,7 @@ Implementing the SDK in Your App
     .. code-block:: swift
 
                 // Swift Example Code Here
-                        let dictionary = ["token":"SDK token got from backend","reg_number":BB423,"vin":3742394ADCS,"mileage":122323,"user_hash":"sjkf12324","customer_num":"erio32133","frame_num":343,meta_data:"Dictionary Data","custom_images":true,"front_image":true, "front_right_image":true]
+                let dictionary = ["token":"SDK token got from backend","reg_number":BB423,"vin":3742394ADCS,"mileage":122323,"user_hash":"sjkf12324","customer_num":"erio32133","frame_num":343,meta_data:"Dictionary Data","custom_images":true,"front_image":true, "front_right_image":true]
 
                 FocalxSDK.showDamageGuideWithParams(caller: self, parameters: dictionary)
 

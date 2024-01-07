@@ -11,8 +11,15 @@ Welcome to the Focalx Documentation. This documentation aims to provide detailed
    api_documentation
 
 .. toctree::
-    :maxdepth: 3
+    :maxdepth: 2
     :caption: Customization Parameters
     :hidden:
 
     customizing_parameters/index
+
+.. toctree::
+    :maxdepth: 2
+    :caption: SDK/Library integration
+    :hidden:
+
+    SDK/index

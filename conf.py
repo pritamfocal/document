@@ -71,7 +71,22 @@ html_theme = 'sphinx_rtd_theme'
 html_theme_options = {
     'logo_only': True,
     'navigation_depth': 5,
+    
+    #'analytics_id': 'G-XXXXXXXXXX',  #  Provided by Google in your dashboard
+    #'analytics_anonymize_ip': False,
+    #'logo_only': False,
+    'display_version': True,
+    'prev_next_buttons_location': 'bottom',
+    'style_external_links': False,
+    'vcs_pageview_mode': '',
+    'style_nav_header_background': 'white',
+    # Toc options
+    'collapse_navigation': True,
+    'sticky_navigation': True,
+    'includehidden': True,
+    'titles_only': False
 }
+
 html_context = {}
 
 if not 'READTHEDOCS' in os.environ:

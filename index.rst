@@ -10,3 +10,4 @@ Welcome to the Focalx Documentation. This documentation aims to provide detailed
    :caption: Contents
 
    api_documentation
+   cutomization_report_parameters

@@ -31,6 +31,6 @@ templates_path = ['_templates']
 # ]
 
 html_theme_options = {
-    'navigation_depth': 6
+    'navigation_depth': 4
 }
 html_context = {}

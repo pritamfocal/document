@@ -11,5 +11,5 @@ This documentation is intended for developers, system integrators, and technical
 .. toctree::
    :maxdepth: 2
    
-   parts_customization
+   customizing_parameters/parts_customization
 

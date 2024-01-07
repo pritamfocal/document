@@ -1,0 +1,11 @@
+version: '3'
+
+services:
+  sphinx-doc:
+    build:
+      context: .  # The directory containing your Dockerfile
+      dockerfile: Dockerfile  # The name of your Dockerfile
+    volumes:
+      - ./local_docs:/docs/local_docs  # Mount a subdirectory to avoid overwriting /docs
+    ports:
+      - "8000:8000"  # Map the port to the host (if you're running a server inside)

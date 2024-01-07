@@ -9,10 +9,11 @@ Welcome to the Focalx Documentation. This documentation aims to provide detailed
    :hidden:
 
    api_documentation
+   customizing_parameters/cutomization_report_parameters
 
 .. toctree::
     :maxdepth: 2
     :caption: Customization Parameters
     :hidden:
 
-    generate_url
+    customizing_parameters/cutomization_report_parameters

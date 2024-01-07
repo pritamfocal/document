@@ -106,6 +106,25 @@ Prerequisites
 
 - **Custom Image Parameters**:
    - When `custom_images` is set to `false`, all 16 images will be automatically taken.
-   - If `true`, specify the image positions for the user to take, using parameters such as `CAMERA_POSITION_FRONT`, `CAMERA_POSITION_REAR`, etc.
+   - If `true`, specify the image positions for the user to take, using parameters such as 
+    
+     .. code-block:: kotlin
+        
+           // Following Custom image parameters you can send
+            CAMERA_POSITION_FRONT
+            CAMERA_POSITION_FRONT_RIGHT
+            CAMERA_POSITION_RIGHT_FRONT
+            CAMERA_POSITION_RIGHT_REAR
+            CAMERA_POSITION_REAR_RIGHT
+            CAMERA_POSITION_REAR
+            CAMERA_POSITION_REAR_LEFT
+            CAMERA_POSITION_LEFT_REAR
+            CAMERA_POSITION_LEFT_FRONT
+            CAMERA_POSITION_FRONT_LEFT
+            CAMERA_POSITION_DASHBOARD
+            CAMERA_POSITION_DRIVER_SEAT
+            CAMERA_POSITION_FRONT_PASSENGER
+            CAMERA_POSITION_LEFT_REAR_PASSENGER
+            CAMERA_POSITION_RIGHT_REAR_PASSENGER
+            CAMERA_POSITION_TRUNCK
 
-Please replace `#link-to-download` and `#link-to-api-token-generation` with the actual URLs where applicable.

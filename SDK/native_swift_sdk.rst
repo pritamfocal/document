@@ -43,7 +43,7 @@ Implementing the SDK in Your App
 
 - **API Token Generation**:
     - Before showing the FocalX.ai damage guide, create a token and supply it to the SDK.
-    - Refer to the API documentation for creating a token: [API Token Generation](#).
+    - Refer to the API documentation for creating a token: Authentication API.
 
 - **Integration Example**:
 

@@ -1,4 +1,4 @@
-Customized API Paramaters
+Customized API Parameters
 ==================================
 
 

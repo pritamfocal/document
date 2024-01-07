@@ -46,7 +46,7 @@ Prerequisites
 
 - **API Token**:
    - Before showing the FocalX.ai damage guide, create a token and supply it as a parameter to the SDK.
-   - Check the API documentation for token generation: [API Token Generation](#link-to-api-token-generation).
+   - Check the API documentation for token generation: Authentication API.
 
 4. Implementing SDK Dependencies
 --------------------------------
@@ -109,7 +109,7 @@ Prerequisites
    - If `true`, specify the image positions for the user to take, using parameters such as 
     
      .. code-block:: kotlin
-        
+
            // Following Custom image parameters you can send
             CAMERA_POSITION_FRONT
             CAMERA_POSITION_FRONT_RIGHT

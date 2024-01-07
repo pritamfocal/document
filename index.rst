@@ -1,5 +1,3 @@
-.. Focalx Documentation master file
-
 Focalx Documentation
 ====================
 

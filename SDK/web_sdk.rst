@@ -18,14 +18,14 @@ Integration via Manual Download
         "focalxaiinspection": "^0.1.0",
 
 - **API Token Generation**:
-  - Before showing the FocalX.ai damage guide, generate a token and supply it to the SDK.
-  - Refer to the API documentation for token generation: [API Token Generation](#link-to-api-token-generation).
+    - Before showing the FocalX.ai damage guide, generate a token and supply it to the SDK.
+    - Refer to the API documentation for token generation: Authentication API.
 
 Integration Process with Package Manager
 ----------------------------------------
 
 - **Expected Parameters**:
-  - The SDK expects the following parameters:
+    - The SDK expects the following parameters:
 
     .. code-block:: javascript
 

@@ -37,6 +37,10 @@ Request
     - *Type*: String
     - *Description*: Name of the image.
     
+- **imageposition**: 
+    - *Type*: String
+    - *Description*: This is an optional field
+
     Example:
 
     .. code-block:: json
@@ -45,6 +49,7 @@ Request
         "images": [
           {
                "name": "09e800a6-ffd0-4282-9c71-034f68e0b164.jpg",
+               "imageposition": "" // This is an optional field 
           }
        ]
      }

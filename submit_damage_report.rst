@@ -221,7 +221,7 @@ Request
     - *Type*: String
     - *Description*: Variant of the car.
 
-    Example:
+    Example (request):
 
     .. code-block:: json
 

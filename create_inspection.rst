@@ -82,11 +82,11 @@ Request
 
 - **body_type**: 
     - *Type*: String
-    - *Description*: Car body type.
+    - *Requirement*: Mandatory
     - *Available Types*: suv,sedan,hatchback,station,lcv
+    - *Description*: Car body type.It should select from only Available types
 
-
-   example:
+   example (request):
        
        .. code-block:: form-data
 
@@ -199,6 +199,98 @@ Response
 - **year**: 
     - *Type*: String
     - *Description*: Manufacturing year of the car.
+
+   example (responce):
+       
+        .. code-block:: json
+        
+        {
+            "inspection": {
+                "id": "ea90225d-4ab1-4376-ba1a-68826835f246",
+                "latitude": null,
+                "longitude": null,
+                "mileage": 12345.0,
+                "process_id": "EEMUX2AI77W3",
+                "platform": "IOS",
+                "thumbnail_url_public": "https://s3.eu-central.assets/images/car.png",
+                "is_user_approved": false,
+                "is_pdf_ready": false,
+                "pdf_url_public": null,
+                "name": null,
+                "phone_number": null,
+                "email": null,
+                "is_report_submitted": false,
+                "meta_data": "\"\"",
+                "is_active": true,
+                "created_on": "2024-01-17T09:35:52.896778Z",
+                "updated_on": "2024-01-17T09:35:52.896806Z",
+                "car_item": "1b4c90d8-74d2-4789-a22e-c12ae9508814",
+                "created_by": "69abc05c-ebab-4e1a-bc0f-f5c103bf0f3f",
+                "updated_by": "69abc05c-ebab-4e1a-bc0f-f5c103bf0f3f"
+            },
+            "car": {
+                "id": "1b4c90d8-74d2-4789-a22e-c12ae9508814",
+                "vin": "JK9EDR84UREDJA1MU92H",
+                "registration_number": "BB20972hjjhjh",
+                "first_registration_year": 0,
+                "color": "yellowblack",
+                "is_active": true,
+                "created_on": "2024-01-17T09:35:52.885482Z",
+                "updated_on": "2024-01-17T09:35:52.885513Z",
+                "car_master_item": "44e8f815-22f3-45e4-ae34-8a057a8b6614",
+                "created_by": "69abc05c-ebab-4e1a-bc0f-f5c103bf0f3f",
+                "updated_by": "69abc05c-ebab-4e1a-bc0f-f5c103bf0f3f"
+            },
+            "car_master": {
+                "id": "44e8f815-22f3-45e4-ae34-8a057a8b6614",
+                "make": "austrianwfgw",
+                "model": "megawala",
+                "year": 2023,
+                "body_size": null,
+                "segment": null,
+                "length": null,
+                "width": null,
+                "height": null,
+                "max_length": null,
+                "max_width": null,
+                "max_height": null,
+                "is_active": true,
+                "created_on": "2023-06-02T09:54:05.504903Z",
+                "updated_on": "2023-06-02T09:54:05.504934Z",
+                "body_type_master_item": {
+                    "name": "SUV",
+                    "slug": "suv"
+                }
+            },
+            "inspection_stats": {
+                "id": 3,
+                "active_images": 0,
+                "inactive_images": 0,
+                "close_shot_images": 0,
+                "beauty_shot_images": 0,
+                "internal_images": 0,
+                "custom_images": 0,
+                "external_processable_images": 0,
+                "external_unprocessable_images": 0,
+                "processed_images": 0,
+                "offside_damages": 0,
+                "manually_added_accepted_damages": 0,
+                "manually_added_rejected_damages": 0,
+                "ai_detected_accepted_damages": 0,
+                "ai_detected_rejected_damages": 0,
+                "total_damages": 0,
+                "damages_accuracy": "0.00",
+                "damages_precision": "0.00",
+                "damages_recall": "0.00",
+                "average_inference_time": "00:00:00",
+                "total_inference_time": "00:00:00",
+                "total_inspection_time": "00:00:00",
+                "is_active": true,
+                "created_on": "2024-01-17T09:35:52.906973Z",
+                "updated_on": "2024-01-17T09:35:52.906998Z",
+                "inspection_item": "ea90225d-4ab1-4376-ba1a-68826835f246"
+            }
+        }
 
 Status Codes
 ------------

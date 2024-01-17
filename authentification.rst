@@ -41,7 +41,17 @@ Request
 
 - **pubKey**:
     - *Type*: String
+    - *Requirement*: Mandatory
     - *Description*: Provided by Focalx
+
+    example (request): 
+
+        .. code-block:: json
+
+        curl --location 'https://{url}/?clientKey={provided by focalx}' \
+        --header 'auth: 7zqTet0zah83+ZH' \
+        --header 'pubKey: ssss==' \
+        --data ''
 
 Response
 --------
@@ -55,6 +65,15 @@ Response
 - **expiry_time**:
     - *Type*: Date Time
     - *Description*: The expiry time of the token.
+
+    example (responce):
+    
+        .. code-block:: json
+
+        {
+            "token": "eyJ0eXAiOiJKV1",
+            "expiry_time": "5 days, 0:00:00"
+        }
 
 Status Codes
 ------------

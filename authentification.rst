@@ -44,6 +44,7 @@ Request
     - *Requirement*: Mandatory
     - *Description*: Provided by Focalx
 
+
     example (request): 
 
         .. code-block:: json
@@ -70,10 +71,10 @@ Response
     
         .. code-block:: json
 
-        {
-            "token": "eyJ0eXAiOiJKV1",
-            "expiry_time": "5 days, 0:00:00"
-        }
+            {
+                "token": "eyJ0eXAiOiJKV1",
+                "expiry_time": "5 days, 0:00:00"
+            }
 
 Status Codes
 ------------

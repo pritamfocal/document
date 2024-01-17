@@ -82,9 +82,9 @@ Request
 
 - **body_type**: 
     - *Type*: String
-    - *Requirement*: Mandatory
-    - *Available Types*: suv,sedan,hatchback,station,lcv
-    - *Description*: Car body type.It should select from only Available types
+    - *Requirement*: ``Mandatory``
+    - *Available Types*: ``suv,sedan,hatchback,station,lcv``
+    - *Description*: ``Car body type.It should select from only Available types specified above.``
 
    example:
        
@@ -203,7 +203,7 @@ Response
    Example (responce):
        
         .. code-block:: json
-        
+
             {
                 "inspection": {
                     "id": "ea90225d-4ab1-4376-ba1a-68826835f246",

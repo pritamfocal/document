@@ -48,10 +48,10 @@ Request
 
         .. code-block:: json
 
-        curl --location 'https://{url}/?clientKey={provided by focalx}' \
-        --header 'auth: 7zqTet0zah83+ZH' \
-        --header 'pubKey: ssss==' \
-        --data ''
+            curl --location 'https://{url}/?clientKey={provided by focalx}' \
+            --header 'auth: 7zqTet0zah83+ZH' \
+            --header 'pubKey: ssss==' \
+            --data ''
 
 Response
 --------

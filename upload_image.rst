@@ -33,6 +33,15 @@ Request
     - *Type*: File
     - *Description*: The image file to be uploaded.
 
+    Example :
+
+       .. code-block:: form-data
+
+            curl --location --globoff --request PUT '{{genarated_url}}' \
+            --header 'Content-Type: image/jpeg' \
+            --data '@/Users/test/Downloads/1bcd3bb2-d712-4e11-b3a9-5eedc3e28955_09e800a6-ffd0-4282-9c71-034f68e0b164.jpg'
+
+
 Response
 --------
 

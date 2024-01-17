@@ -90,8 +90,8 @@ Request
        
        .. code-block:: form-data
 
-            curl --location 'https://let.tenant.focalx.ai/api/v2/service/create-inspection/' \
-            --header 'Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzA1OTE1MTA5LCJqdGkiOiI0ODVkM2M2YWU2MWE0NzkzOTMzY2VmNWY3YTNlZGZjZiIsInVzZXJfaWQiOjkxMH0.rW9RYl6i_w5kTZn31jS56Ug5blHm9Po7ang34ru1QFk' \
+            curl --location 'https://clientname.focalx.ai/createinspection/' \
+            --header 'Authorization: Bearer eyJ0eXAiOiJK' \
             --form 'make="austrianwfgw"' \
             --form 'model="megawala"' \
             --form 'year="2023"' \

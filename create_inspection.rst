@@ -83,6 +83,31 @@ Request
 - **body_type**: 
     - *Type*: String
     - *Description*: Car body type.
+    - *Available Types*: suv,sedan,hatchback,station,lcv
+
+
+   example:
+       
+       .. code-block:: form-data
+
+            curl --location 'https://let.tenant.focalx.ai/api/v2/service/create-inspection/' \
+            --header 'Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzA1OTE1MTA5LCJqdGkiOiI0ODVkM2M2YWU2MWE0NzkzOTMzY2VmNWY3YTNlZGZjZiIsInVzZXJfaWQiOjkxMH0.rW9RYl6i_w5kTZn31jS56Ug5blHm9Po7ang34ru1QFk' \
+            --form 'make="austrianwfgw"' \
+            --form 'model="megawala"' \
+            --form 'year="2023"' \
+            --form 'registration_number="BB20972hjjhjh"' \
+            --form 'mileage="12345"' \
+            --form 'vin="5LGX6PBB6K6KLI854SOM"' \
+            --form 'body_type="suv"' \
+            --form 'color="yellowblack"' \
+            --form 'energy_type="petrol"' \
+            --form 'process_id="8H4PKG7XAX18"' \
+            --form 'platform="IOS"' \
+            --form 'body_size="medium"' \
+            --form 'meta_data="\"\""' \
+            --form 'current_time_zone="GMT2"'
+
+
 
 Response
 --------

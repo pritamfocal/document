@@ -26,6 +26,7 @@ Request
 
 - **auth**: 
     - *Type*: AES-256 Encrypted JSON
+    - *Requirement*: Mandatory
     - *Description*: Contains client key, client secret, and user email hash in the following format:
 
         .. code-block:: json

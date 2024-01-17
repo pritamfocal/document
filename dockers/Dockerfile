@@ -20,7 +20,6 @@ RUN chmod +x /entrypoint.sh
 # When the container starts, run the startup script
 CMD ["/entrypoint.sh"]
 
-#993815491128.dkr.ecr.eu-central-1.amazonaws.com/documents:v3
 
 #docker build -t your-image-name .
 #docker run -p 8000:8000 your-image-name

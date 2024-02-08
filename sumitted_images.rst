@@ -31,10 +31,6 @@ Request
     - *Type*: application/json
     - *Description*: The request should be of JSON data type.
 
-- **Content-Type**: 
-
-    - Empty
-
     Example :
 
        .. code-block:: form-data

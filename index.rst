@@ -23,3 +23,11 @@ Welcome to the Focalx Documentation. This documentation aims to provide detailed
     :hidden:
 
     SDK/index
+
+
+.. toctree::
+    :maxdepth: 5
+    :caption: License
+    :hidden:
+
+    IPR/index

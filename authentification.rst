@@ -84,3 +84,18 @@ Status Codes
 - **402**: Application Error with client secret issue
 - **403**: Application Error with public key issue
 - **500**: Server Error
+
+
+.. raw:: html
+
+    <iframe src="https://www.loom.com/embed/5d3f7e11150548c4adb9585435a9aa87?sid=4a7a5fd8-3f4e-4716-b1bb-3017ff212730"
+            style="margin-top: 40px;"
+            width="640"
+            height="360"
+            frameborder="0"
+            webkitallowfullscreen
+            mozallowfullscreen
+            allowfullscreen></iframe>
+
+
+

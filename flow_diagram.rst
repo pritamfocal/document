@@ -9,7 +9,7 @@ Following diagram shows sequence diagram for focalx API's.
 
 .. raw:: html
 
-    <iframe src="https://www.loom.com/share/88a7c781250744fabc9865533c673e66?sid=cfdb076d-b67b-4ad1-8f85-01da1be81a90"
+    <iframe src="https://www.loom.com/embed/88a7c781250744fabc9865533c673e66?sid=fa0168c0-df15-4270-99f5-4476d895b409"
             frameborder="0"
             webkitallowfullscreen
             mozallowfullscreen

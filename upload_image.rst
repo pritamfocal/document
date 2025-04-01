@@ -52,3 +52,15 @@ Status Codes
 
 - **200**: Success - File uploaded successfully.
 - **4xx/5xx**: Client/Server Errors.
+
+
+.. raw:: html
+
+    <iframe src="https://www.loom.com/embed/8f1a21ce57f3487bb3d9e49f26c205aa?sid=5ddd4245-14bc-4995-af44-65fa8bc25340"
+            style="margin-top: 40px;"
+            width="640"
+            height="360"
+            frameborder="0"
+            webkitallowfullscreen
+            mozallowfullscreen
+            allowfullscreen></iframe>

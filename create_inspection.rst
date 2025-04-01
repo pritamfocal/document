@@ -308,3 +308,15 @@ Response Error (when status code is 400)
     - *Description*: This will provide a JSON error indicating that parameters are missing or incorrect
 
     
+
+.. raw:: html
+
+    <iframe src="https://www.loom.com/embed/987b79953777476fbb244778fda3454e?sid=ce2661af-84de-4cd8-9a11-dad09654f7a8"
+            style="margin-top: 40px;"
+            width="640"
+            height="360"
+            frameborder="0"
+            webkitallowfullscreen
+            mozallowfullscreen
+            allowfullscreen></iframe>
+

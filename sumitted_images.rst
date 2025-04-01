@@ -49,3 +49,15 @@ Status Codes
 
 - **200**: Success 
 - **4xx/5xx**: Client/Server Errors.
+
+
+.. raw:: html
+
+    <iframe src="https://www.loom.com/embed/1f9cfc414cb74946b4ef79414280eea5?sid=5fc28502-f6c5-42c1-ad13-e2fc09676e4b"
+            style="margin-top: 40px;"
+            width="640"
+            height="360"
+            frameborder="0"
+            webkitallowfullscreen
+            mozallowfullscreen
+            allowfullscreen></iframe>

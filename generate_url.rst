@@ -100,3 +100,17 @@ Response Error (when status code is 400)
             {
                 "error": "Missing vehicle data item",
             }
+
+
+.. raw:: html
+
+    <iframe src="https://www.loom.com/embed/4d4cd18e52c746beb103259439ddf44a?sid=79149219-1f22-4995-903f-7e0e94907bc9"
+            style="margin-top: 40px;"
+            width="640"
+            height="360"
+            frameborder="0"
+            webkitallowfullscreen
+            mozallowfullscreen
+            allowfullscreen></iframe>
+
+

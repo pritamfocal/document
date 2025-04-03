@@ -1,10 +1,10 @@
-Inpsection Portal and its feature
+Inspection Portal and its feature
 ==================================
 
 This guide outlines the inspection portal functionality and its feature
 
 
-Inpsection portal Overview
+Inspection portal Overview
 -------------
 
 - **Portal Overview**:
@@ -16,7 +16,7 @@ Inpsection portal Overview
 .. raw:: html
 
     <iframe src="https://www.loom.com/embed/fab1553283524edfb6d5074a36426363?sid=066e7557-0e78-43ec-8325-7eff9edd63d1"
-            style="margin-top: 40px;"
+          style="margin-top: 40px; margin-bottom: 20px;"
             width="640"
             height="360"
             frameborder="0"
@@ -40,7 +40,7 @@ Dashboard
 .. raw:: html
 
     <iframe src="https://www.loom.com/embed/63be0dc7448646089f81f7ffb34210d1?sid=60515f41-bf41-4d91-80c6-93bbc535bd5f"
-            style="margin-top: 40px;"
+           style="margin-top: 40px; margin-bottom: 20px;"
             width="640"
             height="360"
             frameborder="0"
@@ -59,7 +59,7 @@ A key feature of this screen is the Advanced Search, which enables users to effi
 .. raw:: html
 
     <iframe src="https://www.loom.com/embed/978c137f60804bbfbad4e79049eea413?sid=3da1cc8a-b157-49d0-98cc-9f04ee593ea0"
-            style="margin-top: 40px;"
+           style="margin-top: 40px; margin-bottom: 20px;"
             width="640"
             height="360"
             frameborder="0"
@@ -73,7 +73,7 @@ A key feature of this screen is the Advanced Search, which enables users to effi
 .. raw:: html
 
     <iframe src="https://www.loom.com/embed/4f8fbbd3fcf44074b60f2f1edbd3a31f?sid=084d8b90-37b0-4e61-ae59-1e54536a0f49"
-            style="margin-top: 40px;"
+           style="margin-top: 40px; margin-bottom: 20px;"
             width="640"
             height="360"
             frameborder="0"
@@ -87,7 +87,7 @@ A key feature of this screen is the Advanced Search, which enables users to effi
 .. raw:: html
 
     <iframe src="https://www.loom.com/embed/28c1967d310340099747c1a80f4ef013?sid=eeb5c964-7fc0-4449-9144-ac34da23227a"
-            style="margin-top: 40px;"
+            style="margin-top: 40px; margin-bottom: 20px;"
             width="640"
             height="360"
             frameborder="0"
@@ -109,7 +109,7 @@ One-Time User – Adding a user without login credentials, intended for temporar
 .. raw:: html
 
     <iframe src="https://www.loom.com/embed/9f5d7089de1a4eb497c7544aa13fc247?sid=bd010a44-6b60-401a-b755-9aa48d4c7f23"
-            style="margin-top: 40px;"
+            style="margin-top: 40px; margin-bottom: 20px;"
             width="640"
             height="360"
             frameborder="0"
@@ -124,7 +124,7 @@ This feature is primarily designed for trial purposes, allowing users to explore
 .. raw:: html
 
     <iframe src="https://www.loom.com/embed/3689164416f24819b7e10738a56f4194?sid=fae9323d-71c8-49e8-8a0f-b969d3ffe984"
-            style="margin-top: 40px;"
+            style="margin-top: 40px; margin-bottom: 20px;"
             width="640"
             height="360"
             frameborder="0"
@@ -196,7 +196,7 @@ As an added benefit, clients can also enable or disable the option to download d
 .. raw:: html
 
     <iframe src="https://www.loom.com/embed/815a1859ee7b4cdbbde3aeea99f49eac?sid=2ba073c5-c15d-492a-ad6c-7fc1c0dabc9c"
-            style="margin-top: 40px;"
+            style="margin-top: 40px; margin-bottom: 20px;"
             width="640"
             height="360"
             frameborder="0"

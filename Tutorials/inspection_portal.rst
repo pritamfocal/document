@@ -11,6 +11,7 @@ Inspection portal Overview
 
      Portal contails the features where it shows all the features that inspection portal support. 
      It supports following types of feature
+     
     -  Dashboard: The dashboard provides a comprehensive view of client inspection statistics, including key metrics such as "Inspection Performed," "Inspected Vehicles," "Users Added," and "Sites Added" within a specified date range. Additionally, it displays overall AI-detected damages and rejected damages for a clear assessment of inspection outcomes.
 
 .. raw:: html
@@ -52,6 +53,7 @@ Inspection views
 ------------------------------
 
 1. **Inspection view and search**:
+
      - The inspection screen displays all inspections, regardless of the user. It includes a global search feature that allows users to find inspections by entering a registration number.
 Additionally, inspections can be viewed based on different timeframes, including Daily, Weekly, and Monthly.
 A key feature of this screen is the Advanced Search, which enables users to efficiently filter inspections using various criteria such as Number Plate, VIN, Status, Damage Category, Damage Status, Body Type, Occurrence, and Created By, within a specified date range.
@@ -103,8 +105,9 @@ User views
 1. **Creating user**:
      - The User Screen displays user details associated with the specific client account currently logged in. It also provides the functionality to create new users to expand the workforce.
 There are two methods for creating a user:
-By Official Email ID – Creating a user with login credentials.
-One-Time User – Adding a user without login credentials, intended for temporary access.
+
+- By Official Email ID : Creating a user with login credentials.
+- One-Time User:  Adding a user without login credentials, intended for temporary access.
 
 .. raw:: html
 
@@ -151,41 +154,52 @@ The Car Information Settings allow clients to customize the required fields by e
 This ensures that only the necessary vehicle details are requested during the inspection process.
          
 5. **Custom workflow**:
+
      - The Workflow provides a structured and simplified approach to managing inspections by allowing users to:
-Capture images efficiently.
-Answer required inspection questions.
-Review AI-detected damages in the Damage Detail Screen.
+
+     Capture images efficiently.
+     Answer required inspection questions.
+     Review AI-detected damages in the Damage Detail Screen.
+
 All these functionalities are configurable within the Workflow Settings, where users can enable or disable the following options:
-AI Guide – Controls the image capturing screen.
-Dynamic Form – Manages checklist-related questions.
-Damage Detail Screen – Enables reviewing of AI-detected damages.
+    
+     - AI Guide: Controls the image capturing screen.
+     - Dynamic Form : Manages checklist-related questions.
+     - Damage Detail Screen:  Enables reviewing of AI-detected damages.
+
 This flexibility allows clients to tailor the workflow according to their inspection requirements.
 
 6. **Dynamic form and check list**:
      - The Dynamic Form serves as a checklist-based interactive form where users can respond to questions configured by the client.
 We support five types of question formats to enhance flexibility in data collection:
-True or False
-Single Answer Selection
-Multiple Answer Selection
-Comment Only
-Single Image Capturing
-Multiple Image Capturing
+
+ - True or False
+ - Single Answer Selection
+ - Multiple Answer Selection
+ - Comment Only
+ - Single Image Capturing
+ - Multiple Image Capturing
+
 Additionally, for image-related question types, a comment box can be configured, allowing users to provide additional details along with the captured images.
 
 7. **Personal information on inspection**:
      - The Personal Information setting allows clients to configure whether user details should be collected during the inspection process.
+
 Clients can enable or disable the following fields based on their requirements:
-Name
-Email
-Contact
+ - Name
+ - Email
+ - Contact
+
 This ensures flexibility in gathering necessary user information as needed.
 
 8. **Report showing options**:
      - The Report Display Setting is a key feature that allows clients to generate a PDF report containing all relevant details of an inspected vehicle, including detected damages. This report helps clients easily validate inspection results.
 Additionally, the PDF report is configurable, enabling clients to customize the information displayed. The configurable settings include:
-Source of Damage
-Damage Type
-Severity
+ 
+ - Source of Damage
+ - Damage Type
+ - Severity
+
 As an added benefit, clients can also enable or disable the option to download damaged images and car images within the PDF report, ensuring flexibility based on their reporting needs.
 
 9. **Bucket storage information**:

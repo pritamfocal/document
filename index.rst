@@ -27,6 +27,15 @@ Welcome to the Focalx Documentation. This documentation aims to provide detailed
 
 .. toctree::
     :maxdepth: 5
+    :caption: Platform tutorials
+    :hidden:
+
+    Tutorials/index
+
+
+
+.. toctree::
+    :maxdepth: 5
     :caption: License
     :hidden:
 

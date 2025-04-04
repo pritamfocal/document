@@ -11,7 +11,7 @@ Inspection portal Overview
 
      Portal contails the features where it shows all the features that inspection portal support. 
      It supports following types of feature
-     
+
     -  Dashboard: The dashboard provides a comprehensive view of client inspection statistics, including key metrics such as "Inspection Performed," "Inspected Vehicles," "Users Added," and "Sites Added" within a specified date range. Additionally, it displays overall AI-detected damages and rejected damages for a clear assessment of inspection outcomes.
 
 .. raw:: html
@@ -203,8 +203,7 @@ Additionally, the PDF report is configurable, enabling clients to customize the 
 As an added benefit, clients can also enable or disable the option to download damaged images and car images within the PDF report, ensuring flexibility based on their reporting needs.
 
 9. **Bucket storage information**:
-     - We have predefine car image positions like `right-front`	
-      if you to add taking different image than the specified position that you want inspector to take then you will add custome images
+     - If customer want focalx to store images in their bucket then customer can configure that by specifiying the keys. Right we only support AWS bucket storage
 
 
 .. raw:: html

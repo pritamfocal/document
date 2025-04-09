@@ -26,12 +26,11 @@ Inspection portal Overview
             allowfullscreen></iframe>
 
 
-     
-
 Dashboard 
 ------------------------------
 
 -  **Inspection**:
+
      - The inspection statistics are presented in a graphical format for the specified date range, displaying the number of inspections "Created" and "Closed"
 
 -  **Damage stats**:
@@ -217,3 +216,50 @@ As an added benefit, clients can also enable or disable the option to download d
             mozallowfullscreen
             allowfullscreen></iframe>
 
+
+Multisubportal Feature Documentation
+------------------------------
+
+ **Overview**:
+
+Our system provides the ability to create subportals under a parent portal. This feature allows for segmentation, allowing the parent portal to manage multiple subportals. Each subportal functions independently, with its own users, inspections, and settings, while still being connected to the parent portal.
+
+
+ **Key Features**:
+
+1. **Subportal Creation and Management**
+
+The parent portal can create subportals, which operate as isolated entities. Each subportal has its own:
+
+**Users**: Users are specific to each subportal and can only access the subportal they belong to.
+
+**Inspections**: Each subportal has its own set of inspections.
+
+**Settings**: Subportals have independent configurations that can be customized to meet their individual needs.
+
+2. **Parent Portal Admin Access**
+
+The Parent Portal Admin has full access to all subportals and their corresponding data. This includes the following permissions:
+
+**View Inspections**: The Parent Portal Admin can view all inspections performed in any of the subportals, regardless of which subportal they belong to.
+
+**View Subportal Statistics**: The admin can also access detailed statistics and reports for each subportal, providing an overview of performance and activities within the subportals.
+
+
+**Coming Soon**
+
+User Management for Parent Portal Admin
+
+We are working on a new feature that will allow Parent Portal Admins to manage users within the subportals. This will provide even more control, enabling admins to add, edit, or remove users from specific subportals.
+
+
+.. raw:: html
+
+    <iframe src="https://www.youtube.com/embed/rh12FdqJuZM?si=5NAkd5pDrdbaitxf"
+            style="margin-top: 40px; margin-bottom: 20px;"
+            width="640"
+            height="360"
+            frameborder="0"
+            webkitallowfullscreen
+            mozallowfullscreen
+            allowfullscreen></iframe>

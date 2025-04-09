@@ -255,7 +255,7 @@ We are working on a new feature that will allow Parent Portal Admins to manage u
 
 .. raw:: html
 
-    <iframe src="https://www.youtube.com/embed/rh12FdqJuZM?si=5NAkd5pDrdbaitxf"
+    <iframe src="https://www.youtube.com/embed/FLEi6u5P6aM?si=7rjT9oOqowkkJx0w"
             style="margin-top: 40px; margin-bottom: 20px;"
             width="640"
             height="360"

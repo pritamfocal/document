@@ -41,4 +41,5 @@ For browser
     -  numberPlate: Number plate of the car its mandatory to pass.
     -  baseUrl: Based on this url developer can change the environment of the SDK.Developer will get this from focalx
     -  call_back_url: This is the callback url that our application will use for opening your application
+    -  browser_type: In this field if you specify the chrome or safari, it will opne the callbackurl in specific browser type. In case of application you can ignore, this field
 

@@ -15,3 +15,4 @@ This documentation is intended for developers, system integrators, and technical
    native_swift_sdk
    native_android_sdk
    web_sdk
+   app_in_app.rst

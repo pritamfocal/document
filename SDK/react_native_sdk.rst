@@ -25,7 +25,7 @@ Go to devDependancies in your package.json and all our library path like followi
 Usage in the project 
 ------------------------------
 
-.. code-block:: swift
+.. code-block:: javascript
 
     import FocalxInspect from 'react-native-focalx-inspect';
 

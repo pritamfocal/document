@@ -1,7 +1,7 @@
 React Native  library Integration
 ==================================
 
-This guide outlines the steps for integrating the Focalx Swift SDK into your native iOS applications.
+This guide outlines the steps for integrating the Focalx React native into your applications.
 
 
 Prerequisites

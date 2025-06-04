@@ -17,4 +17,4 @@ This documentation is intended for developers, system integrators, and technical
    upload_image
    sumitted_images
    submit_damage_report
-   
+   one_time_link_generation

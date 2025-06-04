@@ -329,6 +329,34 @@ Response Error (when status code is 400)
 
 
 
+Damage Report Access via GET method
+----------------------------------------
+
+To get the Damage Report, you can also use the GET request.
+
+Request
+-------
+
+**Content Type**: ``application/json``
+
+- **Method**: ``GET``
+- **URL**: ``http://{base_url}/api/v2/service/inspections/{{inspection_id}}/damagereport/``
+- **Query Parameter**: ``?x-api-key={{api-key}}``
+
+// base_url is similar to what you used in the submit images
+// inspection_id is the inspection that you want report for.
+
+**Header Parameters**:
+
+- **Authorization**: 
+    - *Type*: Bearer Token
+    - *Description*: Client must send the token received from the previous API.
+Response
+--------
+
+The response will be similar to the responce you get on the Damage Report Webhook 
+
+
 .. raw:: html
 
     <iframe src="https://www.loom.com/embed/da1047c887d749e899eab90c55e9d8e1?sid=e12658e2-8c55-47fd-a5d5-cbf7fd788058"

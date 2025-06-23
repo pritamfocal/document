@@ -17,3 +17,4 @@ This documentation is intended for developers, system integrators, and technical
    react_native_sdk
    web_sdk
    app_in_app.rst
+   maui_native_sdk.rst

@@ -24,14 +24,16 @@ Downloading and Adding the SDK
 Currently, we support integration via local file paths.
 In your MAUI project (e.g., Vascor.csproj), add references to the Focalx libraries as shown below:
 
-<ItemGroup Condition="'$(TargetFramework)' == 'net9.0-ios'">
-  <ProjectReference Include="..\FocalxiOSInspect\FocalxiOSInspect.csproj" />
-  <!-- Ensure this path points to the FocalxSDK folder -->
-</ItemGroup>
+.. code-block:: javascript
 
-<ItemGroup Condition="'$(TargetFramework)' == 'net9.0-android'">
-  <ProjectReference Include="..\FocalxAndroidInspect\FocalxAndroidInspect.csproj" />
-</ItemGroup>
+  <ItemGroup Condition="'$(TargetFramework)' == 'net9.0-ios'">
+    <ProjectReference Include="..\FocalxiOSInspect\FocalxiOSInspect.csproj" />
+    <!-- Ensure this path points to the FocalxSDK folder -->
+  </ItemGroup>
+
+  <ItemGroup Condition="'$(TargetFramework)' == 'net9.0-android'">
+    <ProjectReference Include="..\FocalxAndroidInspect\FocalxAndroidInspect.csproj" />
+  </ItemGroup>
 
 
 Usage in the project 
@@ -41,9 +43,6 @@ Usage in the project
 
     using FocalxiOSInspect;
     using FocalxAndroidInspect;
-
-
-
 
     const parameters = {
         "auth_token": 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjg3MzcyMzI4LCJqdGkiOiJjNzY2ZjYzNWUxMzE0MTkxYjlhZWE3ODBiZGQwYjAyZSIsInVzZXJfaWQiOjg0fQ.Ojd4tVmxuR592RYUDBs04WuMBXiQxt-KBnsMYYQMeKc',
